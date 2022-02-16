@@ -66,7 +66,7 @@
         </div>
         <div id="skills" class="content-item">
         <div class="vertical-center">
-          <h2>Experience</h2>
+          <h2>Skills</h2>
           <?php foreach($json_data['skills'] AS $skills) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
