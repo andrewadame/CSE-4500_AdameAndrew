@@ -23,7 +23,7 @@
     <div data-bs-offset="0" tabindex="0">
       <div id="about" class="content-item">
         <div class="vertical-center">
-          <h1>Firstname Lastname</h1>
+          <h1>Andrew Adame</h1>
           <div class="subheading">
             5500 University Pkwy, San Bernardino, CA 92407 · (123)456-7890
           </div>
@@ -41,6 +41,20 @@
       <div id="experience" class="content-item">
         <div class="vertical-center">
           <h4>Experience</h4>
+          <p>...</p>
+        </div>
+      </div>
+      <hr>
+      <div id="skills" class="content-item">
+        <div class="vertical-center">
+          <h4>Skills</h4>
+          <p>...</p>
+        </div>
+      </div>
+      <hr>
+      <div id="interests" class="content-item">
+        <div class="vertical-center">
+          <h4>Interests</h4>
           <p>...</p>
         </div>
       </div>
