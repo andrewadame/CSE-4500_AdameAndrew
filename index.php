@@ -1,12 +1,6 @@
-
 <?php
-
-    // Read the JSON file
     $json_file = file_get_contents('my_data.json');
-
-    // Decode the JSON file
     $json_data = json_decode($json_file,true);
-
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +18,7 @@
     <div class="left-nav">
       <nav id="navbar-example3" class="navbar vertical-center flex-column center">
         <nav class="nav flex-column">
+          <img src="avatar.png" style="width:160px" alt="">
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#experience">Experience</a>
@@ -33,7 +28,7 @@
       </nav>
     </div>
 
-     <div data-bs-offset="0" tabindex="0">
+    <div data-bs-offset="0" tabindex="0">
       <div id="about" class="content-item">
         <div class="vertical-center">
           <h1><?php echo $json_data['first-name']; ?><span class="text-primary"><?php echo $json_data['last-name']; ?></span></h1>
@@ -68,18 +63,6 @@
               </div>
           <?php  } ?>
         </div>
-      <hr>
-      <div id="experience" class="content-item">
-        <div class="vertical-center">
-          <h2>Experience</h2>
-          <?php foreach($json_data['skills'] AS $skills) { ?>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $skills['categ']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $skills['sftSkls']; ?></div>
-                </div>
-              </div>
-           <?php  } ?>
       </div>
       <hr>
     </div>
