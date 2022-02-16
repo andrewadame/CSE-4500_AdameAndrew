@@ -62,9 +62,10 @@
                 </div>
               </div>
           <?php  } ?>
-          <hr>
         </div>
-        <div id="skills" class="content-item">
+      </div>
+      <hr>
+      <div id="skills" class="content-item">
         <div class="vertical-center">
           <h2>Skills</h2>
           <?php foreach($json_data['skills'] AS $skills) { ?>
